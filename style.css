@@ -9,7 +9,6 @@ body{
 }
 
 div{
-    /* put the borders in the inside of container */
     box-sizing: border-box;
 }
 
@@ -95,7 +94,7 @@ img{
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
 }
 #speech_bubble::before {
-    /* Pfeil der Sprechblase */
+    /* speechbubble from https://codepen.io/rikschennink/pen/mjywQb */
     content: '';
     position: absolute;
     width: 0;
